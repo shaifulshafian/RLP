@@ -45,7 +45,9 @@ class NavBarComponent extends Component {
     const show = this.state.mnuShow ? "show" : "";
     return (
       <nav
-        className={`navbar navbar-expand-lg navbar-light fixed-top ${this.props.navBarShrink}`}
+        className={`navbar navbar-expand-lg navbar-light fixed-top ${
+          this.props.navBarShrink
+        }`}
         id="mainNav"
       >
         <div className="container">
@@ -67,7 +69,7 @@ class NavBarComponent extends Component {
             aria-label="Toggle navigation"
           >
             Menu
-            <i className="fa fa-bars"></i>
+            <i className="fa fa-bars" />
           </button>
           <div
             className={`collapse navbar-collapse ${show}`}
@@ -83,7 +85,7 @@ class NavBarComponent extends Component {
                   smooth="easeInOutQuart"
                   duration={1000}
                 >
-                  Download
+                  Home
                 </Link>
               </li>
               <li className="nav-item">
@@ -91,6 +93,18 @@ class NavBarComponent extends Component {
                   activeClass="active"
                   className="nav-link js-scroll-trigger"
                   to="features"
+                  spy={true}
+                  smooth="easeInOutQuart"
+                  duration={1000}
+                >
+                  Review
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  activeClass="active"
+                  className="nav-link js-scroll-trigger"
+                  to="contact"
                   spy={true}
                   smooth="easeInOutQuart"
                   duration={1000}
@@ -107,7 +121,79 @@ class NavBarComponent extends Component {
                   smooth="easeInOutQuart"
                   duration={1000}
                 >
-                  Contact
+                  Apps
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  activeClass="active"
+                  className="nav-link js-scroll-trigger"
+                  to="contact"
+                  spy={true}
+                  smooth="easeInOutQuart"
+                  duration={1000}
+                >
+                  Benefits
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  activeClass="active"
+                  className="nav-link js-scroll-trigger"
+                  to="contact"
+                  spy={true}
+                  smooth="easeInOutQuart"
+                  duration={1000}
+                >
+                  Pricing
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  activeClass="active"
+                  className="nav-link js-scroll-trigger"
+                  to="contact"
+                  spy={true}
+                  smooth="easeInOutQuart"
+                  duration={1000}
+                >
+                  Faqs
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  activeClass="active"
+                  className="nav-link js-scroll-trigger"
+                  to="contact"
+                  spy={true}
+                  smooth="easeInOutQuart"
+                  duration={1000}
+                >
+                  Apps
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  activeClass="active"
+                  className="nav-link js-scroll-trigger"
+                  to="contact"
+                  spy={true}
+                  smooth="easeInOutQuart"
+                  duration={1000}
+                >
+                  Contact Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  activeClass="active"
+                  className="nav-link js-scroll-trigger"
+                  to="contact"
+                  spy={true}
+                  smooth="easeInOutQuart"
+                  duration={1000}
+                >
+                  Register
                 </Link>
               </li>
             </ul>
