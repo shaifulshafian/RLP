@@ -152,24 +152,12 @@ class NavBarComponent extends Component {
                 <Link
                   activeClass="active"
                   className="nav-link js-scroll-trigger"
-                  to="contact"
+                  to="team"
                   spy={true}
                   smooth="easeInOutQuart"
                   duration={1000}
                 >
-                  Faqs
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  className="nav-link js-scroll-trigger"
-                  to="contact"
-                  spy={true}
-                  smooth="easeInOutQuart"
-                  duration={1000}
-                >
-                  Apps
+                  Teams
                 </Link>
               </li>
               <li className="nav-item">

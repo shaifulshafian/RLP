@@ -5,6 +5,8 @@
   "dependencies": {
     "device-mockup": "0.1.0",
     "font-awesome": "4.7.0",
+    "mdbootstrap": "4.8.11",
+    "mdbreact": "4.22.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",

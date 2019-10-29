@@ -1,4 +1,16 @@
 import React, { Component } from "react";
+import {
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarNav,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBNavItem,
+  MDBFooter,
+  MDBNavLink,
+  MDBTooltip,
+  MDBIcon
+} from "mdbreact";
 import ReactDOM from "react-dom";
 
 import "./App.css";
@@ -11,6 +23,7 @@ import { CallToActionComponent } from "./components/CallToActionComponent/CallTo
 import { FeaturesComponent } from "./components/FeaturesComponent/FeaturesComponent";
 import { AppDownloadComponent } from "./components/AppDownloadComponent/AppDownloadComponent";
 import { HeroComponent } from "./components/HeroComponent/HeroComponent";
+import { TeamComponent } from "./components/TeamComponent/TeamComponent";
 import NavBarComponent from "./components/NavBarComponent/NavBarComponent";
 
 class App extends Component {
@@ -46,6 +59,7 @@ class App extends Component {
         <CallToActionComponent />
         <SocialComponent />
         <FooterComponent />
+        <TeamComponent />
       </div>
     );
   }

@@ -17,7 +17,7 @@ export const FeaturesComponent = props => {
         <div className="row">
           <div className="col-lg-4 my-auto">
             <div className="device-container">
-              <div className="device-mockup iphone6 portrait black">
+              <div className="device-mockup iphone6 portrait white">
                 <div className="device">
                   <div className="screen">
                     <img src={demoScreen1} className="img-fluid" alt="" />
