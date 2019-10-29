@@ -13,7 +13,7 @@ export const HeroComponent = props => {
             <div className="header-content mx-auto">
               <h1 className="mb-5">
                 Why pay thousands of dollars when the best is free? Over 12,500
-                active accounts!
+                active accounts!!!
               </h1>
               <a
                 href="#download"
