@@ -188,7 +188,7 @@ class NavBarComponent extends Component {
                 <Link
                   activeClass="active"
                   className="nav-link js-scroll-trigger"
-                  to="contact"
+                  to="download"
                   spy={true}
                   smooth="easeInOutQuart"
                   duration={1000}

@@ -19,7 +19,7 @@ export const HeroComponent = props => {
                 href="#download"
                 className="btn btn-outline btn-xl js-scroll-trigger"
               >
-                Click Now for Free!!!
+                Click Now for Freelah!!!
               </a>
             </div>
           </div>
