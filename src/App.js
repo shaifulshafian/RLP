@@ -58,8 +58,8 @@ class App extends Component {
         <FeaturesComponent />
         <CallToActionComponent />
         <SocialComponent />
-        <FooterComponent />
         <TeamComponent />
+        <FooterComponent />
       </div>
     );
   }
