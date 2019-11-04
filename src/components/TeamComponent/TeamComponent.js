@@ -1,18 +1,20 @@
 import React, { Component } from "react";
+import "./style.css";
 
 import {
   MDBRow,
   MDBCol,
   MDBCard,
-  MDBAvatar,
+  // MDBAvatar,
   MDBCardBody,
   MDBIcon,
   MDBBtn
 } from "mdbreact";
 
-export const TeamComponent = () => {
+export const TeamComponent = props => {
   return (
-    <MDBCard className="my-5 px-1 pb-5 text-center" id="team">
+    // my-5 px-1 pb-5
+    <MDBCard className=" text-center teams" id="team">
       <MDBCardBody>
         <h2 className="h1-responsive font-weight-bold my-5">
           Our amazing team
@@ -55,7 +57,9 @@ export const TeamComponent = () => {
               className="rounded z-depth-1-half img-fluid"
               alt="Sample avatar"
             />
-            <h4 className="font-weight-bold dark-grey-text my-4">John Doe</h4>
+            <h4 className="font-weight-bold dark-grey-text my-4">
+              Anwar Ibrahim
+            </h4>
             <h6 className="text-uppercase grey-text mb-3">
               Front-end Developer
             </h6>

@@ -1,16 +1,5 @@
 import React, { Component } from "react";
-import {
-  MDBNavbar,
-  MDBNavbarBrand,
-  MDBNavbarNav,
-  MDBNavbarToggler,
-  MDBCollapse,
-  MDBNavItem,
-  MDBFooter,
-  MDBNavLink,
-  MDBTooltip,
-  MDBIcon
-} from "mdbreact";
+
 import ReactDOM from "react-dom";
 
 import "./App.css";
@@ -24,6 +13,7 @@ import { FeaturesComponent } from "./components/FeaturesComponent/FeaturesCompon
 import { AppDownloadComponent } from "./components/AppDownloadComponent/AppDownloadComponent";
 import { HeroComponent } from "./components/HeroComponent/HeroComponent";
 import { TeamComponent } from "./components/TeamComponent/TeamComponent";
+import { ContactUsComponent } from "./components/ContactUsComponent/ContactUsComponent";
 import NavBarComponent from "./components/NavBarComponent/NavBarComponent";
 
 class App extends Component {
@@ -57,8 +47,9 @@ class App extends Component {
         <AppDownloadComponent />
         <FeaturesComponent />
         <CallToActionComponent />
-        <SocialComponent />
+        {/* <SocialComponent /> */}
         <TeamComponent />
+        <ContactUsComponent />
         <FooterComponent />
       </div>
     );

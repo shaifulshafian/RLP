@@ -25,7 +25,7 @@ export const HeroComponent = props => {
           </div>
           <div className="col-lg-5 my-auto">
             <div className="device-container">
-              <div className="device-mockup iphone6 portrait gold">
+              <div className="device-mockup iphone6 portrait white">
                 <div className="device">
                   <div className="screen">
                     <img src={demoScreen1} className="img-fluid" alt="" />
