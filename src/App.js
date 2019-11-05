@@ -47,7 +47,7 @@ class App extends Component {
         <AppDownloadComponent />
         <FeaturesComponent />
         <CallToActionComponent />
-        {/* <SocialComponent /> */}
+        <SocialComponent />
         <TeamComponent />
         <ContactUsComponent />
         <FooterComponent />

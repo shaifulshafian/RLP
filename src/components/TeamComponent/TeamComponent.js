@@ -67,7 +67,7 @@ export const TeamComponent = props => {
               <MDBIcon icon="envelope" />
             </MDBBtn>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-fb">
-              <MDBIcon fab icon="facebook-f" />
+              <MDBIcon fab icon="facebook-f fa fa-facebook" />
             </MDBBtn>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-git">
               <MDBIcon fab icon="github" />

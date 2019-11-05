@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./style.css";
 import "../../../public/device-mockups/device-mockups.css";
 // import "../../device-mockups/device-mockups.min.css";
-import demoScreen1 from "../../demo-screen-1.jpg";
+import demoScreen1 from "../../../public/demo-screen-1.jpg";
 
 export const HeroComponent = props => {
   return (

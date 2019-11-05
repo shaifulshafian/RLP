@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import "simple-line-icons/css/simple-line-icons.css";
-import demoScreen1 from "../../demo-screen-1.jpg";
+import demoScreen1 from "../../../public/demo-screen-1.jpg";
 
 export const FeaturesComponent = props => {
   return (
