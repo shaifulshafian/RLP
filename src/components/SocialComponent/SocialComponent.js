@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 import "./style.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faGooglePlus
+} from "@fortawesome/free-brands-svg-icons";
 
 export const SocialComponent = props => {
   return (
@@ -7,23 +15,23 @@ export const SocialComponent = props => {
       <div className="container">
         <h2>
           We
-          <i className="fa fa-heart"></i>
+          <i className="fa fa-heart" />
           new friends!
         </h2>
         <ul className="list-inline list-social">
           <li className="list-inline-item social-twitter">
             <a href="#">
-              <i className="fa fa-twitter"></i>
+              <FontAwesomeIcon icon={faTwitter} />
             </a>
           </li>
           <li className="list-inline-item social-facebook">
             <a href="#">
-              <i className="fa fa-facebook"></i>
+              <FontAwesomeIcon icon={faFacebook} />
             </a>
           </li>
           <li className="list-inline-item social-google-plus">
             <a href="#">
-              <i className="fa fa-google-plus"></i>
+              <FontAwesomeIcon icon={faGooglePlus} />
             </a>
           </li>
         </ul>

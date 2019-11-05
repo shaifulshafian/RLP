@@ -1,19 +1,34 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 
 import {
   MDBRow,
   MDBCol,
   MDBCard,
-  // MDBAvatar,
+  MDBAvatar,
   MDBCardBody,
   MDBIcon,
-  MDBBtn
+  MDBBtn,
+  MDBContainer
 } from "mdbreact";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faGooglePlus,
+  faLinkedinIn,
+  faPinterestP,
+  faGithub,
+  faDribbbleSquare
+} from "@fortawesome/free-brands-svg-icons";
 
 export const TeamComponent = props => {
   return (
     // my-5 px-1 pb-5
+
     <MDBCard className=" text-center teams" id="team">
       <MDBCardBody>
         <h2 className="h1-responsive font-weight-bold my-5">
@@ -32,10 +47,10 @@ export const TeamComponent = props => {
               className="rounded z-depth-1-half img-fluid"
               alt="Sample avatar"
             />
-            <h4 className="font-weight-bold dark-grey-text my-4">Maria Kate</h4>
+            <h4 className="font-weight-bold dark-grey-text my-4">Nur Kate</h4>
             <h6 className="text-uppercase grey-text mb-3">Photographer</h6>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-fb">
-              <MDBIcon fab icon="facebook-f" />
+              <FontAwesomeIcon icon={faFacebook} />
             </MDBBtn>
             <MDBBtn
               tag="a"
@@ -43,10 +58,10 @@ export const TeamComponent = props => {
               size="sm"
               className="mx-1 mb-0 btn-dribbble"
             >
-              <MDBIcon fab icon="dribbble" />
+              <FontAwesomeIcon icon={faDribbbleSquare} />
             </MDBBtn>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-tw">
-              <MDBIcon fab icon="twitter" />
+              <FontAwesomeIcon icon={faTwitter} />
             </MDBBtn>
           </MDBCol>
 
@@ -64,13 +79,14 @@ export const TeamComponent = props => {
               Front-end Developer
             </h6>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-email">
-              <MDBIcon icon="envelope" />
+              <FontAwesomeIcon icon={faLinkedinIn} />
             </MDBBtn>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-fb">
-              <MDBIcon fab icon="facebook-f fa fa-facebook" />
+              <FontAwesomeIcon icon={faFacebook} />
             </MDBBtn>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-git">
               <MDBIcon fab icon="github" />
+              <FontAwesomeIcon icon={faGithub} />
             </MDBBtn>
           </MDBCol>
 
@@ -82,17 +98,17 @@ export const TeamComponent = props => {
               alt="Sample avatar"
             />
             <h4 className="font-weight-bold dark-grey-text my-4">
-              Sarah Melyah
+              Makcik Melyah
             </h4>
             <h6 className="text-uppercase grey-text mb-3">Web Developer</h6>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-li">
-              <MDBIcon fab icon="linkedin-in" />
+              <FontAwesomeIcon icon={faLinkedinIn} />
             </MDBBtn>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-tw">
-              <MDBIcon fab icon="twitter" />
+              <FontAwesomeIcon icon={faTwitter} />
             </MDBBtn>
             <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-pin">
-              <MDBIcon fab icon="pinterest" />
+              <FontAwesomeIcon icon={faPinterestP} />
             </MDBBtn>
           </MDBCol>
         </MDBRow>

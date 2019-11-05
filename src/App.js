@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 import "./App.css";
-import "font-awesome/css/font-awesome.css";
 import "../public/device-mockups/device-mockups.min.css";
 
 import { FooterComponent } from "./components/FooterComponent/FooterComponent";
