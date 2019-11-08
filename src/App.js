@@ -12,6 +12,7 @@ import { FeaturesComponent } from "./components/FeaturesComponent/FeaturesCompon
 import { AppDownloadComponent } from "./components/AppDownloadComponent/AppDownloadComponent";
 import { HeroComponent } from "./components/HeroComponent/HeroComponent";
 import { TeamComponent } from "./components/TeamComponent/TeamComponent";
+import { ReviewComponent } from "./components/ReviewComponent/ReviewComponent";
 import { ContactUsComponent } from "./components/ContactUsComponent/ContactUsComponent";
 import NavBarComponent from "./components/NavBarComponent/NavBarComponent";
 
@@ -46,10 +47,13 @@ class App extends Component {
         <AppDownloadComponent />
         <FeaturesComponent />
         <CallToActionComponent />
-        <SocialComponent />
+
+        <ReviewComponent />
+
         <TeamComponent />
         <ContactUsComponent />
         <FooterComponent />
+        {/* <SocialComponent /> */}
       </div>
     );
   }
